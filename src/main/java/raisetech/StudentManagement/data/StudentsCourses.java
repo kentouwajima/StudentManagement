@@ -1,4 +1,4 @@
-package raisetech.StudentManagement;
+package raisetech.StudentManagement.data;
 
 
 import java.sql.Timestamp;
@@ -7,7 +7,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class StudentCourse {
+public class StudentsCourses {
   private int id;
   private int studentId;
   private String courseName;
