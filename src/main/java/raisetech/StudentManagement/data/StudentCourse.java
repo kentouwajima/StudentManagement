@@ -13,11 +13,11 @@ public class StudentCourse {
 
   @NotBlank
   @Schema(description = "コースID", example = "1")
-  private int id;
+  private String id;
 
   @NotBlank
   @Schema(description = "受講生ID", example = "1")
-  private int studentId;
+  private String studentId;
 
   @NotBlank
   @Schema(description = "コース名", example = "Javaコース")

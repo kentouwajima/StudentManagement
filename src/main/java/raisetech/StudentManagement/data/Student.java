@@ -12,7 +12,7 @@ import lombok.Setter;
 public class Student {
 
   @Schema(description = "受講生のID", example = "1", required = true)
-  private int id;
+  private String id;
 
   @NotBlank
   @Schema(description = "受講生の名前", example = "山田 太郎", required = true)
